@@ -1,14 +1,14 @@
 name: First Workflow
 
-on:push
+on: push
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Run a one-line script
-      run: echo "Hello, Woreld!"
+      - name: Run a one-line script
+        run: echo "Hello, World!"
