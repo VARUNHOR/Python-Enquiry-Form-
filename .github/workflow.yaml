@@ -10,5 +10,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build Docker image
+      - name: Build Docker again image
         run: docker build -t my-nginx:v1 .
